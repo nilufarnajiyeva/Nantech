@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.red{
+    color: red !important;
+
+}
+.blue{
+    color: rgb(0, 110, 255) ;
+   
+}
+.login{
+    width: 30% ;
+    background-color: white;
+    height: 300px;
+    padding: 35px;
+   margin: 0 auto;
+   margin-top: 30px;
+   box-shadow: #cdcdcd -2px 4px 10px 1px;
+   transition: 4s;
+   border-radius: 20px;
+
+}
+.user {
+display: block;
+padding-right: 10px;
+margin-top: 20px;
+margin-left: 30px;
+padding: 6px;
+border-radius: 5px;
+border: 1px solid lightgray;
+
+}
+.password{
+    display: block;
+    margin-top: 20px;
+    padding-right: 10px;
+    margin-left: 30px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.center{
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+button{
+    margin-top: 20px;
+    padding-right: 10px;
+    margin-right: 12px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    width: 186px;
+    background-color: brown;
+    color: white;
+   
+}
+/* body{
+    background-image: url(https://www.nantech.az/img/sign.svg);
+    
+} */
+.image{
+    opacity: 0.1;
+}
+.body{
+    position: absolute;
+}
+.all{
+    position: relative;
+    margin-top: -1000px;
+   
+}
+.son{
+    text-align: center;
+    margin-top: 20px;
+}
+.security{
+    position: absolute;
+margin-left: 155px;
+    margin-top: -20px;
+}
+#hide{
+    display: none;
+}
+@media(max-width:532){
+    .all{
+        margin-right: 30px;
+        width:  200px;
+    }
+}
